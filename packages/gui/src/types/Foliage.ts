@@ -3,6 +3,7 @@ type Foliage = {
   foliage_block_data_signature: string;
   foliage_block_data: {
     extension_data: string;
+    community_reward_puzzle_hash: string;
     farmer_reward_puzzle_hash: string;
     pool_signature: string;
     pool_target: {
