@@ -1,7 +1,7 @@
 {
   "name": "@chia/gui",
-  "author": "Chia Network <hello@chia.net> (https://chia.net/)",
-  "description": "GUI for Chia Blockchain",
+  "author": "Hive Project 2021 <hello@chivescoin.org> (https://chivescoin.org/)",
+  "description": "GUI for Chives Blockchain",
   "license": "Apache-2.0",
   "productName": "Chia Blockchain",
   "private": true,

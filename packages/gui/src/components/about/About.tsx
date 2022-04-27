@@ -71,7 +71,7 @@ const Spacer = styled.div`
   margin-bottom: 1rem;
 `;
 
-const url = 'https://chia.net';
+const url = 'https://chivescoin.org';
 
 type Props = {
   version: string;
@@ -117,7 +117,7 @@ export default function About(props: Props) {
         </StyledLink>
         <StyledSubTitle>{description}</StyledSubTitle>
         <Spacer />
-        <div className="copyright">Copyright (c) {currentYear} Chia Network</div>
+        <div className="copyright">Copyright (c) {currentYear} Chives Network</div>
         <Spacer />
         <VersionsTable>
           {versions?.electron && (
