@@ -2,7 +2,7 @@ import PlotterName from './PlotterName';
 import { PlotterOptions, PlotterDefaults } from '../@types/Plotter';
 
 export const bladebitOptions: PlotterOptions = {
-  kSizes: [32],
+  kSizes: [29],
   haveNumBuckets: false,
   haveMadmaxNumBucketsPhase3: false,
   haveMadmaxThreadMultiplier: false,
@@ -18,7 +18,7 @@ export const bladebitOptions: PlotterOptions = {
 
 export const bladebitDefaults: PlotterDefaults = {
   plotterName: PlotterName.BLADEBIT,
-  plotSize: 32,
+  plotSize: 29,
   numThreads: 0,
   numBuckets: undefined,
   madmaxNumBucketsPhase3: undefined,
@@ -33,7 +33,7 @@ export const bladebitDefaults: PlotterDefaults = {
 };
 
 export const chiaposOptions: PlotterOptions = {
-  kSizes: [25, 32, 33, 34, 35],
+  kSizes: [25, 29, 30, 31],
   haveNumBuckets: true,
   haveMadmaxNumBucketsPhase3: false,
   haveMadmaxThreadMultiplier: false,
@@ -49,7 +49,7 @@ export const chiaposOptions: PlotterOptions = {
 
 export const chiaposDefaults: PlotterDefaults = {
   plotterName: PlotterName.CHIAPOS,
-  plotSize: 32,
+  plotSize: 29,
   numThreads: 2,
   numBuckets: 128,
   madmaxNumBucketsPhase3: undefined,
@@ -64,7 +64,7 @@ export const chiaposDefaults: PlotterDefaults = {
 };
 
 export const madmaxOptions: PlotterOptions = {
-  kSizes: [25, 32, 33, 34],
+  kSizes: [25, 29, 30, 31],
   haveNumBuckets: true,
   haveMadmaxNumBucketsPhase3: true,
   haveMadmaxThreadMultiplier: true,
@@ -80,7 +80,7 @@ export const madmaxOptions: PlotterOptions = {
 
 export const madmaxDefaults: PlotterDefaults = {
   plotterName: PlotterName.MADMAX,
-  plotSize: 32,
+  plotSize: 29,
   numThreads: 4,
   numBuckets: 256,
   madmaxNumBucketsPhase3: 256,
